@@ -26,6 +26,7 @@ print("Value Function V for each state:")
 for state, value in zip(states, V):
     print(f"{state}: {value[0]}")
 
+#The MDP is solved
 #The optimal policy is the action that takes the agent from one state to another state with the maximum value function.
 #The max reward is 15.31149 A to H to J 
 
