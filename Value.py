@@ -25,3 +25,17 @@ V = np.matmul(np.linalg.inv(I-(gamma*P)), R)
 print("Value Function V for each state:")
 for state, value in zip(states, V):
     print(f"{state}: {value[0]}")
+
+#The optimal policy is the action that takes the agent from one state to another state with the maximum value function.
+#The max reward is 15.31149 A to H to J 
+
+#State A -> State H
+#State B -> State D
+#State C -> State J
+#State D -> State E
+#State E -> State I
+#State F -> State E
+#State G -> State E
+#State H -> State J
+#State I -> State H
+#State J -> None
